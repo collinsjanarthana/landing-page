@@ -8,18 +8,7 @@
     background: url('../../assets/background.png') no-repeat center center/cover;
 }
 
-/* Overlay for better readability */
-/* .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
-    z-index: 1;
-} */
 
-/* Box around text with Interstellar Blue */
 .hero-content {
     width: 630px;
     height: 306px;
@@ -50,7 +39,7 @@
 }
 
 /* Button Styling */
-.cta-btn {
+/* .cta-btn {
     color: var(--secondary-color);
     border: none;
     width: 214px;
@@ -67,7 +56,7 @@
 .cta-btn:hover {
     color: var(--secondary-color);
 
-}
+} */
 
 .btn-text{
 font-weight: 700px;

@@ -1,24 +1,38 @@
 .services {
-    padding: 50px 0;
-    background: var(--accent1);
+  padding: 50px 0;
+  background: var(--accent1);
+}
+
+.service-row {
+  background: var(--analogous1);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 100%; /* Make it responsive */
+  width: 90%; /* Adjust width based on screen size */
+  margin: 0 auto; /* Center the section */
+}
+
+.service-text h3 {
+  color: var(--primary-color);
+  font-size: 1.8rem; /* Use relative font sizes */
+}
+
+.service-text p {
+  font-size: 1rem; /* Adjust text size for responsiveness */
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .service-row {
+    padding: 20px;
   }
   
-  .service-card {
-    background: var(--analogous1);
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
+  .service-text h3 {
+    font-size: 1.5rem;
   }
-  
-  .service-card img {
-    width: 80px;
+
+  .service-text p {
+    font-size: 0.9rem;
   }
-  
-  .service-card h3 {
-    color: var(--text-color);
-  }
-  
-  .service-card p {
-    color: var(--text-light);
-  }
-  
+}

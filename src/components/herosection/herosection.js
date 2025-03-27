@@ -1,7 +1,7 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './herosection.css';
-// import heroBg from "../../assets/Hero Section.png"
+import Btn from '../../widgets/button';
 
 const HeroSection = () => {
   return (
@@ -10,9 +10,9 @@ const HeroSection = () => {
       <Container>
         <div className="hero-content">
           <h1>We Crush Your <br/> Competitors, Goals, and <br/>Sales Records - Without<br/> The B.S.</h1>
-          <Button className="cta-btn">
+          <Btn>
             <div className='btn-text'>Get Free Consultation</div>
-            </Button>
+            </Btn>
         </div>
       </Container>
     </section>
