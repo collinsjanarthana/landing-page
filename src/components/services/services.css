@@ -1,0 +1,24 @@
+.services {
+    padding: 50px 0;
+    background: var(--accent1);
+  }
+  
+  .service-card {
+    background: var(--analogous1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .service-card img {
+    width: 80px;
+  }
+  
+  .service-card h3 {
+    color: var(--text-color);
+  }
+  
+  .service-card p {
+    color: var(--text-light);
+  }
+  

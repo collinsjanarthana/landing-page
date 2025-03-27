@@ -1,0 +1,40 @@
+/* Theme Colors */
+:root {
+    --primary-color: #4F46E5; /* Bluish Purple */
+    --secondary-color: #E0A000; /* Yuzu Jam */
+    --analogous-1: #6A44F2; /* Ice Ice Baby */
+    --analogous-2: #1CBDDD; /* Rich Blue */
+    --triadic-1: #52378C; /* Electric Indigo */
+    --dark-color: #78BF91; /* Interstellar Blue */
+    
+    --text-color: #2F2F2F; /* Tricorn Black */
+    --text-light: #9C9991; /* Acier */
+    --text-subtle: #D9D9D9; /* Acier */
+    
+    --accent-color: #E2F2FE; /* Wizard White */
+    --accent-alt: #FFF8E0; /* Cuddly Yarn */
+    
+    --error-color: #ff0033; /* Hornet Sting */
+    --success-color: #98fb98 ; /* Frog */
+  }
+  
+  /* Common Utility Classes */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .btn-primary {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--triadic-1);
+  }
+  

@@ -1,0 +1,49 @@
+/* Global Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+    background-color: var(--accent-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Large screens (Default: 1440px) */
+  @media (max-width: 1200px) {
+    .container {
+      padding: 0 30px;
+    }
+    .hero-content h1 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  /* Tablet screens (768px) */
+  @media (max-width: 768px) {
+    .hero {
+      height: 60vh;
+      text-align: center;
+    }
+    .hero-content h1 {
+      font-size: 1.8rem;
+    }
+    .navbar-nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  /* Mobile screens (375px) */
+  @media (max-width: 375px) {
+    .hero {
+      height: 50vh;
+    }
+    .hero-content h1 {
+      font-size: 1.5rem;
+    }
+    .footer {
+      text-align: center;
+    }
+  }
+  

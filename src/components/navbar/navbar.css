@@ -1,0 +1,25 @@
+.custom-navbar {
+    background-color: var(--primary-color);
+    padding: 15px;
+  }
+  
+  .logo {
+    width: 266px;
+    height: 49.62;
+    gap: 14px;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: var(--accent-color);
+    font-weight: 500;
+    size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+  }
+  
